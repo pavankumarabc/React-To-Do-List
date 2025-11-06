@@ -20,6 +20,7 @@ function App() {
   }
   function clear() {
     setTask([]);
+    setStrike([]);
   }
   function editing(item, index) {
     setEdittext(item);
