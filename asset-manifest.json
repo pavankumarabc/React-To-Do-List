@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pavankumarabc/React-To-Do-List/static/css/main.482c7cee.css",
+    "main.js": "/pavankumarabc/React-To-Do-List/static/js/main.65a8fe10.js",
+    "index.html": "/pavankumarabc/React-To-Do-List/index.html",
+    "main.482c7cee.css.map": "/pavankumarabc/React-To-Do-List/static/css/main.482c7cee.css.map",
+    "main.65a8fe10.js.map": "/pavankumarabc/React-To-Do-List/static/js/main.65a8fe10.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.482c7cee.css",
+    "static/js/main.65a8fe10.js"
+  ]
+}
