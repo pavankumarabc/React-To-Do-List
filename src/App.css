@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.logo {
+  font-size: 20px;
+  font-family: cursive;
+}
+.box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 350px;
+  padding: 0.5em;
+}
+.box input {
+  flex: 1;
+  height: 20px;
+  padding: 0.5em;
+  border-radius: 4px;
+}
+.box input:focus {
+  outline: aliceblue 5px solid;
+}
+.btns {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btns button {
+  width: 40px;
+  height: 30px;
+  background-color: rgb(96, 96, 184);
+  color: white;
+  border-radius: 4px;
+  padding: 0.3em;
+  gap: 10px;
+  border: none;
+  box-shadow: 1px 1px 2px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* lists.jsx styling starts ----- */
+.lists {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
+  width: 350px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.lists ul {
   display: flex;
   flex-direction: column;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+  width: 370px;
+}
+.lists li {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0.3em;
+  background-color: lavender;
+  height: 30px;
   align-items: center;
+  gap: 20px;
+  height: 30px;
+  border-radius: 4px;
+  word-break: break-all;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btn {
+  display: flex;
+  gap: 20px;
+  margin-left: auto;
+  align-items: center;
+  padding: 0.4em;
+}
+.box2 {
+  width: 75%;
+  height: 28px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+.box2 input:focus {
+  outline: blue 2px solid;
+}
+.icons {
+  width: 20px;
+  height: 20px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  align-items: center;
+  padding: 0.2em;
+  border-radius: 5px;
 }
